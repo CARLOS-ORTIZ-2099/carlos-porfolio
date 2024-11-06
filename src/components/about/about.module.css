@@ -1,0 +1,28 @@
+.aboutContainer {
+  margin-top: 10px;
+  border: solid green 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImage {
+  border: solid red 2px;
+  flex: 1 1 0;
+}
+
+.aboutInformation {
+  border: solid blue 2px;
+  flex: 1 1 0;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .aboutContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .aboutInformation {
+    padding: 1.2rem;
+  }
+}

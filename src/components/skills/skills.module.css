@@ -1,0 +1,23 @@
+.skillsContainer {
+  margin-top: 20px;
+  border: solid pink 2px;
+}
+
+.skillsImagesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  gap: 1rem;
+  /*  border: solid red 2px; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titleSkill {
+  text-transform: capitalize;
+}
+
+.skillsTitle {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}

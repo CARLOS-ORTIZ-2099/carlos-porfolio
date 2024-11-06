@@ -1,0 +1,85 @@
+[
+  {
+    "id": 1,
+    "title": "app music",
+    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout securely.",
+    "technologies": ["html", "css", "js"],
+    "image": "../assets/projects/app-music.png",
+    "link": "https://app-music-nu.vercel.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/app-music/tree/dev"
+  },
+  {
+    "id": 2,
+    "title": "calculator js",
+    "description": "A personal portfolio website to showcase my projects and skills. Designed with a modern, responsive layout.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "../assets/projects/calculator.png",
+    "link": "https://calculator-js-nu.vercel.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/calculator-js/tree/dev"
+  },
+  {
+    "id": 3,
+    "title": "ip address tracker",
+    "description": "A simple and intuitive task manager app for organizing daily activities. Includes features like task categorization, reminders, and priority levels.",
+    "technologies": ["html", "css", "js"],
+    "image": "../assets/projects/ip-address-tracker.png",
+    "link": "https://ip-address-tracker-master-drab.vercel.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/ip-address-tracker-master/tree/dev"
+  },
+  {
+    "id": 4,
+    "title": "todo app drag and drop",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["html", "css", "js"],
+    "image": "../assets/projects/todo-app-drag-drop.png",
+    "link": "https://todo-app-main-sandy.vercel.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev"
+  },
+
+  {
+    "id": 5,
+    "title": "calculator age",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["react", "css"],
+    "image": "../assets/projects/calculator-age.png",
+    "link": "https://calculator-age-navy.vercel.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/calculator-age/tree/dev"
+  },
+
+  {
+    "id": 6,
+    "title": "search movies",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["react", "css"],
+    "image": "../assets/projects/search-movies.png",
+    "link": "https://search-movies-blancmange-9d114-movies.netlify.app/",
+    "github": "github search-movies: https://github.com/CARLOS-ORTIZ-2099/search-movies/tree/dev"
+  },
+  {
+    "id": 7,
+    "title": "countries app",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["react", "css"],
+    "image": "../assets/projects/countries-app.png",
+    "link": "https://countries-app-hummingbird-4995dd.netlify.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/countries-app/tree/dev"
+  },
+  {
+    "id": 8,
+    "title": "amastore ecommerce",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["react", "css", "bootstrap"],
+    "image": "../assets/projects/ecommerce-products.png",
+    "link": "https://kataifi-ecommerce-8f8297.netlify.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev"
+  },
+  {
+    "id": 9,
+    "title": "chat simulator",
+    "description": "A weather dashboard that fetches real-time data from the OpenWeather API. Displays weather information by location, including temperature, humidity, and forecasts.",
+    "technologies": ["react", "css", "bootstrap", "firebase"],
+    "image": "../assets/projects/chat-simulator.png",
+    "link": "https://chat-group-568053.netlify.app/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev"
+  }
+]

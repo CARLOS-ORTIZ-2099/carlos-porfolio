@@ -1,0 +1,50 @@
+.headerContainer {
+  background-color: #dcb;
+  display: flex;
+  border: solid blue 1px;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  min-height: 10vh;
+}
+
+.headerLogo {
+  border: solid red 1px;
+  flex: 0.5 0.5 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.headerDarkLight {
+  border: solid skyblue 1px;
+  flex: 0.5 0.5 0;
+  text-align: center;
+  cursor: pointer;
+}
+.headerMenu {
+  border: solid skyblue 1px;
+  flex: 0.5 0.5 0;
+  text-align: center;
+  display: none;
+}
+
+.headerNav {
+  border: solid green 1px;
+  flex: 2 1 0;
+}
+
+.headerUl {
+  border: solid orange 1px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  .headerNav {
+    background-color: red;
+    display: none;
+  }
+  .headerMenu {
+    display: block;
+  }
+}

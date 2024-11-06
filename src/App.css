@@ -1,0 +1,14 @@
+/* estilos generales */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.app-container {
+  background-color: #fdfdfd;
+  /* background-color: red; */
+}
