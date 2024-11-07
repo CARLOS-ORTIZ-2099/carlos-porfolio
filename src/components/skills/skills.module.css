@@ -3,6 +3,13 @@
   border: solid pink 2px;
 }
 
+.skillsTitle {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
 .skillsImagesContainer {
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
@@ -13,11 +20,18 @@
   text-align: center;
 }
 
+.imageSkill {
+  width: 70px;
+  height: 70px;
+}
+
 .titleSkill {
   text-transform: capitalize;
 }
 
-.skillsTitle {
-  text-align: center;
-  margin: 20px 0 20px 0;
+@media screen and (max-width: 500px) {
+  .imageSkill {
+    width: 40px;
+    height: 40px;
+  }
 }

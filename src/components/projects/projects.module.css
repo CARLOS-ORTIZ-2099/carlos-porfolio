@@ -1,4 +1,109 @@
 .projectsContainer {
-  border: solid red 2px;
+  border: solid red 1px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.projectsTitle {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+/* grilla de proyectos */
+.projects {
+  border: solid blue 2px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* contenedor de la imagen */
+.cardImage {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .cardImage img {
+  transform: scale(1.1);
+}
+
+/* informacion del proyecto */
+.cardContent {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.cardContent h3 {
+  font-size: 25px;
+  margin: 0 0 10px;
+  color: rgb(37, 209, 180);
+}
+
+.cardContent p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 7px;
+}
+
+.cardContent .span {
+  color: #212020;
+  font-weight: bolder;
+}
+
+/* contenedor de los iconos */
+.linksContainer {
   margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .projects {
+    grid-template-columns: repeat(1, minmax(50px, 1fr));
+  }
+
+  .card {
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .projects {
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+  }
 }

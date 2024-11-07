@@ -1,6 +1,6 @@
 import "./App.css";
 import { About } from "./components/about/About";
-import { Contact } from "./components/Contact";
+import { Studies } from "./components/studies/Studies";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/header/Header";
 import { Projects } from "./components/projects/Projects";
@@ -15,7 +15,7 @@ function App() {
         <Skills />
         <Projects />
 
-        <Contact />
+        <Studies />
       </main>
       <Footer />
     </div>

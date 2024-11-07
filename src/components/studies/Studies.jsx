@@ -1,4 +1,4 @@
-export const Contact = () => {
+export const Studies = () => {
   return (
     <section id="contact">
       <h2 id="contact-heading">Contacto</h2>
