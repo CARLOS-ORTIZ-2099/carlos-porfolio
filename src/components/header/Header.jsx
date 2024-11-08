@@ -26,13 +26,15 @@ export const Header = () => {
             <a href="#about">Acerca de</a>
           </li>
           <li>
-            <a href="#projects">Proyectos</a>
-          </li>
-          <li>
             <a href="#skills">Habilidades</a>
           </li>
+
           <li>
-            <a href="#contact">Contacto</a>
+            <a href="#projects">Proyectos</a>
+          </li>
+
+          <li>
+            <a href="#contact">Education</a>
           </li>
         </ul>
       </nav>

@@ -13,6 +13,7 @@ export const Skills = () => {
   // console.log(styles);
   return (
     <section className={styles.skillsContainer} id="skills">
+      {/* estilarse globalmente */}
       <h2 className={styles.skillsTitle} id="skills-heading">
         Habilidades
       </h2>

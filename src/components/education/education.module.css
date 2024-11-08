@@ -1,0 +1,80 @@
+.eduactionsContainer {
+  border: solid red 2px;
+  margin-top: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.certificationsLinksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
+
+.cardLinkInfo {
+  border: solid coral 2px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 115px;
+  padding: 1rem;
+}
+
+.cardLinkInfo .link {
+  flex: 1 1 0;
+  border: solid blue 1px;
+}
+
+.cardLinkInfo .texto {
+  flex: 1 1 0;
+  border: solid red 1px;
+}
+
+.cardLinkInfo .link .surround {
+  background-color: rgb(24, 149, 227);
+  padding: 4px;
+  border-radius: 15px;
+}
+
+.eduactionsContainer .btn {
+  background-color: rgb(46, 154, 208);
+  padding: 0.5rem;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+/* movil */
+@media screen and (max-width: 500px) {
+  .cardLinkInfo {
+    width: 80%;
+    padding: 1rem;
+    font-size: small;
+    flex-direction: column-reverse;
+  }
+
+  .cardLinkInfo .link {
+    flex: none;
+  }
+
+  .cardLinkInfo .texto {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* tablets */
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .cardLinkInfo {
+    width: 80%;
+    padding: 1rem;
+    font-size: small;
+  }
+}

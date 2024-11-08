@@ -1,14 +1,15 @@
 import styles from "./projects.module.css";
 import data from "../../data/projectsData.json";
 import { useState } from "react";
-import net from "../../assets/skills/network.svg";
-import github from "../../assets/skills/github.svg";
+import network from "../../assets/redes/network-logo.svg";
+import github from "../../assets/redes/github-logo-1.svg";
 
 export const Projects = () => {
   const [projects, setProjects] = useState(data);
 
   return (
     <section className={styles.projectsContainer} id="projects">
+      {/* estilar globalmente */}
       <h2 className={styles.projectsTitle} id="projects-heading">
         ultimos Proyectos
       </h2>
@@ -24,7 +25,7 @@ export const Projects = () => {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
 
-              <span className={styles.span}>stack : </span>
+              <span>stack : </span>
 
               {project.technologies.map((technologi, index) => (
                 <span key={index}> {technologi} </span>
@@ -32,7 +33,11 @@ export const Projects = () => {
 
               <div className={styles.linksContainer}>
                 <a href={project.link} target="blank">
-                  <img className={styles.icon} src={net} alt="icon-network" />
+                  <img
+                    className={styles.icon}
+                    src={network}
+                    alt="icon-network"
+                  />
                 </a>
                 <a href={project.github} target="blank">
                   <img className={styles.icon} src={github} alt="icon-github" />
@@ -42,6 +47,7 @@ export const Projects = () => {
           </div>
         ))}
       </div>
+      <button className={styles.btn}>ver mas </button>
     </section>
   );
 };
