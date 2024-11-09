@@ -9,7 +9,7 @@ export const Education = () => {
   const [certifications, setCertifications] = useState(educationsData);
 
   return (
-    <section className={styles.eduactionsContainer} id="contact">
+    <section className={styles.eduactionsContainer} id="education">
       <div className={styles.hero}>
         <h2>my studies</h2>
       </div>
@@ -42,7 +42,7 @@ export const Education = () => {
       </div>
 
       <button className={styles.btn}>
-        <Link to={"/studies-page"}>ver mas</Link>{" "}
+        <Link to={"/education-page"}>ver mas</Link>
       </button>
     </section>
   );

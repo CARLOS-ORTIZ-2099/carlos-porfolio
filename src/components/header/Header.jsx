@@ -1,15 +1,47 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import logo2 from "../../assets/nav/logo2.svg";
 import moon from "../../assets/nav/moon.svg";
 import menu from "../../assets/nav/menu.svg";
 import styles from "./header.module.css";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export const Header = () => {
   /*  console.log(styles); */
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  /* este useffect se ejecutara cuando el usuario haga navegaciones internas */
+  useEffect(() => {
+    console.log(location);
+    // si estando en la pagina education-page el usuario interactua
+    // con la navegacion forzara un cambio de hash y se hara una redirrecion de pagina
+    if (location.pathname === "/education-page" && location.hash) {
+      console.log("estas en la pagina education");
+      navigate(`/${location.hash}`);
+    }
+  }, [location.hash]);
+
+  /* este efecto se ejecutara cuando se cambie de pagina */
+  useEffect(() => {
+    // si el usuario cambia de education-page al indice entonces lo
+    // llevamos hasta la seccion propia del indice
+    console.log(location);
+    const sectionId = location.hash.replace("#", "");
+    const section = document.getElementById(sectionId);
+    console.log(section);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [location.pathname]);
+
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerLogo}>
-        <img style={{ width: "30px" }} src={logo2} alt="logo-principal" />
+        <Link to={"/"}>
+          <img style={{ width: "30px" }} src={logo2} alt="logo-principal" />
+        </Link>
       </div>
 
       <div className={styles.headerDarkLight}>
@@ -34,7 +66,7 @@ export const Header = () => {
           </li>
 
           <li>
-            <a href="#contact">Education</a>
+            <a href="#education">Education</a>
           </li>
         </ul>
       </nav>

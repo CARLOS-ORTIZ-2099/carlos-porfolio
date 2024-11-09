@@ -1,24 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { About } from "./components/about/About";
-import { Education } from "./components/education/Education";
-import { Footer } from "./components/footer/Footer";
-import { Header } from "./components/header/Header";
-import { Projects } from "./components/projects/Projects";
-import { Skills } from "./components/skills/Skills";
+import { AppContainer } from "./components/app-container/AppContainer";
+import { HomePage } from "./page/home/HomePage";
+import { EducationPage } from "./page/educations-page/EducationPage";
 
 function App() {
   return (
-    <div className="app-container">
-      <Header />
-      <main>
-        <About />
-        <Skills />
-        <Projects />
-
-        <Education />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<AppContainer classStyle={"app-container"} />}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/education-page" element={<EducationPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
