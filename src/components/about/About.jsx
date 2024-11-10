@@ -15,7 +15,7 @@ export const About = () => {
 
       <div className={styles.aboutInformation}>
         {/* este h3 deberia estilarse globalmente, en tamaño y color */}
-        <h2 id="about-heading">Acerca de mí</h2>
+        <h2 id="about-heading">About me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
           totam? Molestiae tempore dolore consequatur labore tenetur autem
@@ -24,9 +24,20 @@ export const About = () => {
           adipisicing elit.
         </p>
         <div>
-          <img src={githubLogo} alt="github-logo" />
-          <img src={linkedin} alt="linkedin-logo" />
-          <img src={cv} alt="cv-logo" />
+          <a
+            target="_blank"
+            href="https://github.com/CARLOS-ORTIZ-2099"
+            rel="noreferrer"
+          >
+            <img src={githubLogo} alt="github-logo" />
+          </a>
+
+          <a href="#">
+            <img src={linkedin} alt="linkedin-logo" />
+          </a>
+          <a href="#">
+            <img src={cv} alt="cv-logo" />
+          </a>
         </div>
       </div>
     </section>

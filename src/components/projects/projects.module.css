@@ -1,5 +1,5 @@
 .projectsContainer {
-  border: solid red 1px;
+  /* border: solid red 1px; */
   margin-top: 20px;
   text-align: center;
 }
@@ -11,7 +11,7 @@
 
 /* grilla de proyectos */
 .projects {
-  border: solid blue 2px;
+  /* border: solid blue 2px; */
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
   gap: 1rem;
@@ -59,12 +59,17 @@
   background-color: #fff;
 }
 
+/* este titulo no se ve afectado por estilo global, por la cascada
+  que se le da aqui
+*/
 .cardContent h3 {
   font-size: 25px;
   margin: 0 0 10px;
-  color: rgb(37, 209, 180);
+  color: #0d47a1;
 }
-
+/* este parrafo no se ve afectado por estilo global, por la cascada
+  que se le da aqui
+*/
 .cardContent p {
   font-size: 14px;
   color: #555;
@@ -88,15 +93,27 @@
 }
 
 .projectsContainer .btn {
-  background-color: rgb(46, 154, 208);
+  background-color: #0d47a1;
   padding: 0.5rem;
+  width: 100px;
   border-radius: 10px;
   display: block;
   margin: 20px auto 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+.projectsContainer .btn:hover {
+  background-color: #1565c0;
+  transition: ease-in-out 0.5s;
+}
+
+.projectsContainer .btn a {
+  color: aliceblue;
 }
 
 /* moviles */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .projects {
     grid-template-columns: repeat(1, minmax(50px, 1fr));
   }
@@ -112,7 +129,7 @@
 }
 
 /* tablets */
-@media screen and (min-width: 700px) and (max-width: 1000px) {
+@media screen and (min-width: 610px) and (max-width: 1000px) {
   .projects {
     grid-template-columns: repeat(2, minmax(50px, 1fr));
   }

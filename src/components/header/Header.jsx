@@ -1,20 +1,28 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import logo2 from "../../assets/nav/logo2.svg";
 import moon from "../../assets/nav/moon.svg";
+import sun from "../../assets/nav/sun.svg";
 import menu from "../../assets/nav/menu.svg";
+import closeMenu from "../../assets/nav/close-menu.svg";
 import styles from "./header.module.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import { useState } from "react";
+import { useMyContext } from "../../context/ThemeProvider";
 
 export const Header = () => {
-  /*  console.log(styles); */
+  const { theme, handleTheme } = useMyContext();
+  console.log(theme);
 
   const location = useLocation();
   const navigate = useNavigate();
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const handleOpenMenu = () => setOpenMenu(!openMenu);
 
   /* este useffect se ejecutara cuando el usuario haga navegaciones internas */
   useEffect(() => {
-    console.log(location);
+    //console.log(location);
     // si estando en la pagina education-page el usuario interactua
     // con la navegacion forzara un cambio de hash y se hara una redirrecion de pagina
     if (location.pathname === "/education-page" && location.hash) {
@@ -27,42 +35,56 @@ export const Header = () => {
   useEffect(() => {
     // si el usuario cambia de education-page al indice entonces lo
     // llevamos hasta la seccion propia del indice
-    console.log(location);
+    //console.log(location);
     const sectionId = location.hash.replace("#", "");
     const section = document.getElementById(sectionId);
-    console.log(section);
+    //console.log(section);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
   }, [location.pathname]);
 
   return (
-    <header className={styles.headerContainer}>
+    <header
+      className={
+        theme === "light"
+          ? styles.headerContainer
+          : `${styles.headerContainer} ${styles.headerContainerDark}`
+      }
+    >
       <div className={styles.headerLogo}>
         <Link to={"/"}>
-          <img style={{ width: "30px" }} src={logo2} alt="logo-principal" />
+          <img src={logo2} alt="logo-principal" />
         </Link>
       </div>
 
       <div className={styles.headerDarkLight}>
-        <img style={{ width: "30px" }} src={moon} alt="logo-dark-light" />
+        <img
+          onClick={handleTheme}
+          src={theme == "light" ? moon : sun}
+          alt="logo-dark-light"
+        />
       </div>
 
       <div className={styles.headerMenu}>
-        <img style={{ width: "30px" }} src={menu} alt="logo-menu" />
+        <img
+          onClick={handleOpenMenu}
+          src={openMenu ? closeMenu : menu}
+          alt="logo-menu"
+        />
       </div>
 
-      <nav className={styles.headerNav}>
+      <nav className={`${styles.headerNav} ${openMenu && styles.show}`}>
         <ul className={styles.headerUl}>
           <li>
-            <a href="#about">Acerca de</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a href="#skills">Habilidades</a>
+            <a href="#skills">Skills</a>
           </li>
 
           <li>
-            <a href="#projects">Proyectos</a>
+            <a href="#projects">Projects</a>
           </li>
 
           <li>

@@ -1,5 +1,5 @@
 .eduactionsContainer {
-  border: solid red 2px;
+  /* border: solid red 2px; */
   margin-top: 20px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .cardLinkInfo {
-  border: solid coral 2px;
+  border: solid rgb(24, 149, 227) 1px;
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -28,26 +28,44 @@
 
 .cardLinkInfo .link {
   flex: 1 1 0;
-  border: solid blue 1px;
+  /* border: solid blue 1px; */
 }
 
 .cardLinkInfo .texto {
   flex: 1 1 0;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
-.cardLinkInfo .link .surround {
+.cardLinkInfo .link button {
   background-color: rgb(24, 149, 227);
-  padding: 4px;
+  padding: 0.4rem;
   border-radius: 15px;
+  border: none;
+}
+
+.cardLinkInfo .link button a {
+  color: aliceblue;
 }
 
 .eduactionsContainer .btn {
-  background-color: rgb(46, 154, 208);
+  margin: 20px auto 0 auto;
+  background-color: #0d47a1;
   padding: 0.5rem;
+  width: 100px;
   border-radius: 10px;
   display: block;
   margin: 20px auto 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+.eduactionsContainer .btn:hover {
+  background-color: #1565c0;
+  transition: ease-in-out 0.5s;
+}
+
+.eduactionsContainer .btn a {
+  color: aliceblue;
 }
 
 /* movil */

@@ -11,9 +11,8 @@ export const Projects = () => {
     <section className={styles.projectsContainer} id="projects">
       {/* estilar globalmente */}
       <h2 className={styles.projectsTitle} id="projects-heading">
-        ultimos Proyectos
+        Projects
       </h2>
-
       <div className={styles.projects}>
         {projects.map((project) => (
           <div key={project.id} className={styles.card}>
@@ -47,7 +46,15 @@ export const Projects = () => {
           </div>
         ))}
       </div>
-      <button className={styles.btn}>ver mas </button>
+      <button className={styles.btn}>
+        <a
+          target="_blank"
+          href="https://github.com/CARLOS-ORTIZ-2099?tab=repositories"
+          rel="noreferrer"
+        >
+          see more
+        </a>
+      </button>
     </section>
   );
 };

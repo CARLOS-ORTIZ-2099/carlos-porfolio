@@ -23,13 +23,15 @@ export const Education = () => {
           >
             {/*  <div className={styles.cardLink}> */}
             <div className={styles.link}>
-              <a
-                className={styles.surround}
-                href={certification.link}
-                target="blank"
-              >
-                see certificate
-              </a>
+              <button>
+                <a
+                  className={styles.surround}
+                  href={certification.link}
+                  target="blank"
+                >
+                  see certificate
+                </a>
+              </button>
             </div>
 
             <div className={styles.texto}>
@@ -42,7 +44,7 @@ export const Education = () => {
       </div>
 
       <button className={styles.btn}>
-        <Link to={"/education-page"}>ver mas</Link>
+        <Link to={"/education-page"}>see more</Link>
       </button>
     </section>
   );

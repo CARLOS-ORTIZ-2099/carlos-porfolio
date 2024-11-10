@@ -12,11 +12,11 @@ export const EducationPage = () => {
           <img className={styles.cardImg} src={certification.link} alt="" />
 
           <div className={styles.overlay}>
-            <button className={styles.cardBtn}>
+            <span>
               <a target="_blank" href={certification.link} rel="noreferrer">
-                ver mas
+                see more
               </a>
-            </button>
+            </span>
           </div>
         </div>
       ))}

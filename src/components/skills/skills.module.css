@@ -1,12 +1,5 @@
-.skillsContainer {
-  margin-top: 20px;
-  border: solid pink 2px;
-}
-
 .skillsTitle {
   text-align: center;
-  margin: 20px 0 20px 0;
-  /* font-size: 2.5rem; */
 }
 
 .skillsImagesContainer {
@@ -17,15 +10,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .imageSkill {
   width: 70px;
   height: 70px;
-}
-
-.titleSkill {
-  text-transform: capitalize;
 }
 
 /* moviles */

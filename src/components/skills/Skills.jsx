@@ -15,7 +15,7 @@ export const Skills = () => {
     <section className={styles.skillsContainer} id="skills">
       {/* estilarse globalmente */}
       <h2 className={styles.skillsTitle} id="skills-heading">
-        Habilidades
+        Skills
       </h2>
 
       <div className={styles.skillsImagesContainer}>
@@ -26,9 +26,7 @@ export const Skills = () => {
             src={html}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            html
-          </h3>
+          <h3>html</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -37,9 +35,7 @@ export const Skills = () => {
             src={css}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            css
-          </h3>
+          <h3>css</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -48,9 +44,7 @@ export const Skills = () => {
             src={js}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            js
-          </h3>
+          <h3>javascript</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -59,9 +53,7 @@ export const Skills = () => {
             src={react}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            react
-          </h3>
+          <h3>react</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -70,9 +62,7 @@ export const Skills = () => {
             src={bootstrap}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            bootstrap
-          </h3>
+          <h3>bootstrap</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -81,9 +71,7 @@ export const Skills = () => {
             src={git}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            git
-          </h3>
+          <h3>git</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -92,9 +80,7 @@ export const Skills = () => {
             src={node}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            node
-          </h3>
+          <h3>node</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -103,9 +89,7 @@ export const Skills = () => {
             src={express}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            express
-          </h3>
+          <h3>express</h3>
         </div>
         <div className={styles.skills}>
           <img
@@ -114,9 +98,7 @@ export const Skills = () => {
             src={mongo}
             alt="image-skill"
           />
-          <h3 style={{ color: "black" }} className={styles.titleSkill}>
-            mongo Db
-          </h3>
+          <h3>mongo Db</h3>
         </div>
       </div>
     </section>
