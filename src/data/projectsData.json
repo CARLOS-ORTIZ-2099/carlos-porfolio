@@ -1,23 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "app music",
-    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
-    "technologies": ["html", "css", "js"],
-    "image": "/projects/app-music.png",
-    "link": "https://app-music-nu.vercel.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/app-music/tree/dev"
-  },
-  {
-    "id": 2,
-    "title": "calculator js",
-    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
-    "technologies": ["HTML", "CSS", "js"],
-    "image": "/projects/calculator.png",
-    "link": "https://calculator-js-nu.vercel.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/calculator-js/tree/dev"
-  },
-  {
     "id": 3,
     "title": "ip address tracker",
     "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
@@ -35,26 +17,16 @@
     "link": "https://todo-app-main-sandy.vercel.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev"
   },
-
   {
     "id": 5,
-    "title": "calculator age",
+    "title": "rock paper scissor multijugador",
     "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
-    "technologies": ["react", "css"],
-    "image": "/projects/calculator-age.png",
-    "link": "https://calculator-age-navy.vercel.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/calculator-age/tree/dev"
+    "technologies": ["html", "css", "js", "node js", "socket IO"],
+    "image": "/projects/rps-socket-io.png",
+    "link": "",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/rock-paper-scissor-sockets"
   },
 
-  {
-    "id": 6,
-    "title": "search movies",
-    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
-    "technologies": ["react", "css"],
-    "image": "/projects/search-movies.png",
-    "link": "https://search-movies-blancmange-9d114-movies.netlify.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/search-movies/tree/dev"
-  },
   {
     "id": 7,
     "title": "countries app",
@@ -81,5 +53,23 @@
     "image": "/projects/chat-simulator.png",
     "link": "https://chat-group-568053.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev"
+  },
+  {
+    "id": 10,
+    "title": "clon de instagram",
+    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
+    "technologies": ["react", "chakra UI", "node js", "express", "mongo db"],
+    "image": "/projects/clon-instagram-portada.png",
+    "link": "https://clon-instagram.onrender.com/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/clon-instagram"
+  },
+  {
+    "id": 11,
+    "title": "market place",
+    "description": "A fully functional e-commerce website built with the MERN stack. Users can browse products, add items to cart, and checkout",
+    "technologies": ["react", "chakra UI", "node js", "express", "mongo db"],
+    "image": "/projects/market-place.png",
+    "link": "https://market-place-om7z.onrender.com/",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/market-place"
   }
 ]

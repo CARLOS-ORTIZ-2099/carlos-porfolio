@@ -1,7 +1,7 @@
 .headerContainer {
-  background-color: #0d47a1;
+  background-color: #fdfdfd;
   display: flex;
-  border: solid rgb(134, 123, 55) 1px;
+  /*  border: solid rgb(134, 123, 55) 1px; */
   justify-content: space-around;
   align-items: center;
   /* flex-wrap: wrap; */
@@ -11,6 +11,7 @@
   width: 100%;
   z-index: 999;
   font-size: large;
+  box-shadow: 0 4px 8px rgba(134, 123, 55, 0.5);
 }
 
 .headerContainerDark {
@@ -62,7 +63,8 @@
 
 .headerNav,
 .headerUl li a {
-  color: aliceblue;
+  color: rgb(134, 123, 55);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 500px) {

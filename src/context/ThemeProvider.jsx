@@ -8,7 +8,6 @@ import { createContext, useContext, useState } from "react";
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  /* persistencia en ls */
   const [theme, setTheme] = useState(() => {
     let themeValue = localStorage.getItem("theme");
     if (themeValue) {
@@ -41,6 +40,5 @@ export const useMyContext = () => {
     return myContext;
   } catch (error) {
     console.log(error);
-    alert(error);
   }
 };

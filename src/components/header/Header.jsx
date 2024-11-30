@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import logo2 from "../../assets/nav/logo2.svg";
+import logo2 from "../../assets/nav/logo.svg";
 import moon from "../../assets/nav/moon.svg";
 import sun from "../../assets/nav/sun.svg";
 import menu from "../../assets/nav/menu.svg";
