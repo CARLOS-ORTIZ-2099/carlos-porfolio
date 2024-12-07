@@ -18,7 +18,6 @@
   height: 70px;
 }
 
-/* moviles */
 @media screen and (max-width: 500px) {
   .imageSkill {
     width: 40px;

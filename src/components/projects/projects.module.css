@@ -34,7 +34,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* contenedor de la imagen */
 .cardImage {
   width: 100%;
   height: 200px;
@@ -53,23 +52,17 @@
   transform: scale(1.1);
 }
 
-/* informacion del proyecto */
 .cardContent {
   padding: 20px;
   background-color: #fff;
 }
 
-/* este titulo no se ve afectado por estilo global, por la cascada
-  que se le da aqui
-*/
 .cardContent h3 {
   font-size: 25px;
   margin: 0 0 10px;
   color: #0d47a1;
 }
-/* este parrafo no se ve afectado por estilo global, por la cascada
-  que se le da aqui
-*/
+
 .cardContent p {
   font-size: 14px;
   color: #555;
@@ -81,7 +74,6 @@
   font-weight: bolder;
 }
 
-/* contenedor de los iconos */
 .linksContainer {
   margin-top: 10px;
   display: flex;
@@ -90,17 +82,19 @@
 
 .linksContainer a .icon {
   width: 30px;
+  height: 30px;
 }
 
 .projectsContainer .btn {
   background-color: #0d47a1;
   padding: 0.5rem;
-  width: 100px;
+  width: 140px;
   border-radius: 10px;
   display: block;
   margin: 20px auto 0 auto;
   border: none;
   cursor: pointer;
+  color: aliceblue;
 }
 
 .projectsContainer .btn:hover {
@@ -108,11 +102,6 @@
   transition: ease-in-out 0.5s;
 }
 
-.projectsContainer .btn a {
-  color: aliceblue;
-}
-
-/* moviles */
 @media screen and (max-width: 600px) {
   .projects {
     grid-template-columns: repeat(1, minmax(50px, 1fr));
@@ -128,7 +117,6 @@
   }
 }
 
-/* tablets */
 @media screen and (min-width: 610px) and (max-width: 1000px) {
   .projects {
     grid-template-columns: repeat(2, minmax(50px, 1fr));

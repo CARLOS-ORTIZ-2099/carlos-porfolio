@@ -1,15 +1,14 @@
 import styles from "./projects.module.css";
 import data from "../../data/projectsData.json";
 import { useState } from "react";
-import network from "../../assets/redes/network-logo.svg";
-import github from "../../assets/redes/github-logo-1.svg";
+import network from "/redes/network-logo.svg";
+import github from "/redes/github-logo-1.svg";
 
 export const Projects = () => {
   const [projects, setProjects] = useState(data);
 
   return (
     <section className={styles.projectsContainer} id="projects">
-      {/* estilar globalmente */}
       <h2 className={styles.projectsTitle} id="projects-heading">
         Projects
       </h2>
@@ -17,7 +16,7 @@ export const Projects = () => {
         {projects.map((project) => (
           <div key={project.id} className={styles.card}>
             <div className={styles.cardImage}>
-              <img src={project.image} alt="Project Image" />
+              <img loading="lazy" src={project.image} alt="Project Image" />
             </div>
 
             <div className={styles.cardContent}>
@@ -31,30 +30,38 @@ export const Projects = () => {
               ))}
 
               <div className={styles.linksContainer}>
-                <a href={project.link} target="blank">
+                <a href={project.link} target="blank" rel="noopener noreferrer">
                   <img
                     className={styles.icon}
                     src={network}
-                    alt="icon-network"
+                    alt="visitar el proyecto en línea"
                   />
                 </a>
-                <a href={project.github} target="blank">
-                  <img className={styles.icon} src={github} alt="icon-github" />
+                <a
+                  href={project.github}
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className={styles.icon}
+                    src={github}
+                    alt="Ver el repositorio en GitHub"
+                  />
                 </a>
               </div>
             </div>
           </div>
         ))}
       </div>
-      <button className={styles.btn}>
-        <a
-          target="_blank"
-          href="https://github.com/CARLOS-ORTIZ-2099?tab=repositories"
-          rel="noreferrer"
-        >
-          see more
-        </a>
-      </button>
+
+      <a
+        className={styles.btn}
+        target="_blank"
+        href="https://github.com/CARLOS-ORTIZ-2099?tab=repositories"
+        rel="noreferrer"
+      >
+        View My GitHub
+      </a>
     </section>
   );
 };

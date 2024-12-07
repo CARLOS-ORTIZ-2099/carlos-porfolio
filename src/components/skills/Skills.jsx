@@ -1,19 +1,17 @@
 import styles from "./skills.module.css";
-import html from "../../assets/skills/html-logo.svg";
-import css from "../../assets/skills/css-logo.svg";
-import js from "../../assets/skills/js-logo.svg";
-import react from "../../assets/skills/react-logo.svg";
-import bootstrap from "../../assets/skills/bootstrap-logo.svg";
-import git from "../../assets/skills/git-logo.svg";
-import node from "../../assets/skills/node-logo.svg";
-import express from "../../assets/skills/express-logo.svg";
-import mongo from "../../assets/skills/mongo-logo.svg";
+import html from "/skills/html-logo.svg";
+import css from "/skills/css-logo.svg";
+import js from "/skills/js-logo.svg";
+import react from "/skills/react-logo.svg";
+import bootstrap from "/skills/bootstrap-logo.svg";
+import git from "/skills/git-logo.svg";
+import node from "/skills/node-logo.svg";
+import express from "/skills/express-logo.svg";
+import mongo from "/skills/mongo-logo.svg";
 
 export const Skills = () => {
-  // console.log(styles);
   return (
     <section className={styles.skillsContainer} id="skills">
-      {/* estilarse globalmente */}
       <h2 className={styles.skillsTitle} id="skills-heading">
         Skills
       </h2>

@@ -3,98 +3,98 @@
     "id": 1,
     "course": "curso html",
     "date": "3 de marzo de 2022",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021339/certificado-html_nwqcnm.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021339/certificado-html_nwqcnm.jpg",
     "institution": "Edteam"
   },
   {
     "id": 2,
     "course": "curso sql",
     "date": "30 de octubre de 2022",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021389/certificado-sql_i9z9ep.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021389/certificado-sql_i9z9ep.jpg",
     "institution": "Edteam"
   },
   {
     "id": 3,
     "course": "curso javascript",
     "date": "19 de noviembre de 2022",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021344/certificado-javascript_pzdmpy.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021344/certificado-javascript_pzdmpy.jpg",
     "institution": "Edteam"
   },
   {
     "id": 4,
     "course": "curso diseño de bases de datos",
     "date": "21 de diciembre de 2022",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021301/certificado-database-design_gybudc.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021301/certificado-database-design_gybudc.jpg",
     "institution": "Edteam"
   },
   {
     "id": 5,
     "course": "curso css",
     "date": "8 de febrero de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021287/certificado-css_jajvhi.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021287/certificado-css_jajvhi.jpg",
     "institution": "Edteam"
   },
   {
     "id": 6,
     "course": "curso javascript dom",
     "date": "18 de marzo de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021350/certificado-js-dom_u4ljgw.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021350/certificado-js-dom_u4ljgw.jpg",
     "institution": "Edteam"
   },
   {
     "id": 7,
     "course": "curso javascript poo",
     "date": "24 de marzo de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021356/certificado-js-poo_dz7aym.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021356/certificado-js-poo_dz7aym.jpg",
     "institution": "Edteam"
   },
   {
     "id": 8,
     "course": "curso react",
     "date": "27 de julio de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021383/certificado-react_b9ebll.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021383/certificado-react_b9ebll.jpg",
     "institution": "Edteam"
   },
   {
     "id": 9,
     "course": "curso git",
     "date": "19 de agosto de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021333/certificado-git_nv27pc.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021333/certificado-git_nv27pc.jpg",
     "institution": "Edteam"
   },
   {
     "id": 10,
     "course": "curso bootstrap",
     "date": "9 de septiembre de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021279/certificado-bootstrap_y1bipg.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021279/certificado-bootstrap_y1bipg.jpg",
     "institution": "Edteam"
   },
   {
     "id": 11,
     "course": "mongo db",
     "date": "24 de octubre de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021373/certificado-mongodb_klrtg7.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021373/certificado-mongodb_klrtg7.jpg",
     "institution": "Edteam"
   },
   {
     "id": 12,
     "course": "curso node.js",
     "date": "26 de octubre de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021378/certificado-nodejs_ahpknb.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021378/certificado-nodejs_ahpknb.jpg",
     "institution": "Edteam"
   },
   {
     "id": 13,
     "course": "curso javascript freecodeCamp",
     "date": "31 de diciembre de 2023",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021402/certificado-js-freecodecamp_e8pgyt.png",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021402/certificado-js-freecodecamp_e8pgyt.png",
     "institution": "freeCodeCamp"
   },
   {
     "id": 14,
     "course": "curso master en react",
     "date": "23 de febrero de 2024",
-    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1731021415/certificado-react-udemy_xepi0o.jpg",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021415/certificado-react-udemy_xepi0o.jpg",
     "institution": "Udemy"
   }
 ]

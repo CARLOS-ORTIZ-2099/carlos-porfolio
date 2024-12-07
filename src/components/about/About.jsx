@@ -1,42 +1,45 @@
 import styles from "./about.module.css";
 import Lottie from "lottie-react";
-import animationData3 from "../../assets/about/about-image3.json";
-import githubLogo from "../../assets/redes/github-logo.svg";
-import linkedin from "../../assets/redes/linkedin-logo.svg";
-import cv from "../../assets/redes/cv-logo.svg";
+import aboutImage from "../../assets/about/about-image.json";
+import githubImage from "/redes/github-logo.svg";
+import gmailImage from "/redes/gmail-logo.svg";
+import cvImage from "/redes/cv-logo.svg";
 
 export const About = () => {
-  /* console.log(styles); */
   return (
     <section className={styles.aboutContainer} id="about">
       <div className={styles.aboutImage}>
-        <Lottie animationData={animationData3} />
+        <Lottie animationData={aboutImage} />
       </div>
 
       <div className={styles.aboutInformation}>
-        {/* este h3 deberia estilarse globalmente, en tamaño y color */}
         <h2 id="about-heading">About me</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-          totam? Molestiae tempore dolore consequatur labore tenetur autem
-          voluptates rerum doloremque hic alias, eos, modi, quia porro nostrum
-          perferendis doloribus eaque Lorem ipsum dolor sit amet consectetur
-          adipisicing elit.
+          soy una persona autodidacta con ganas de seguir aprendiendo y
+          creciendo en este mundo de la tecnología, así mismo me encuentro en
+          constante aprendizaje explorando nuevas tecnologías y mejores
+          prácticas para mejorar mis habilidades y hacer las cosas cada vez
+          mejor me encanta asumir nuevos retos y resolver problemas tanto en el
+          ámbito digital como en la vida cotidiana.
         </p>
         <div>
           <a
-            target="_blank"
             href="https://github.com/CARLOS-ORTIZ-2099"
+            target="_blank"
             rel="noreferrer"
           >
-            <img src={githubLogo} alt="github-logo" />
+            <img src={githubImage} alt="github-logo" />
           </a>
 
-          <a href="#">
-            <img src={linkedin} alt="linkedin-logo" />
+          <a
+            href="mailto:carledudev@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={gmailImage} alt="gmail-logo" />
           </a>
-          <a href="#">
-            <img src={cv} alt="cv-logo" />
+          <a href="/carlos-cv.pdf" target="_blank">
+            <img src={cvImage} alt="cv-logo" />
           </a>
         </div>
       </div>

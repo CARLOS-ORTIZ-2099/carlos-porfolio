@@ -27,6 +27,7 @@
 
 .headerLogo img {
   width: 30px;
+  height: 30px;
 }
 
 .headerDarkLight {
@@ -38,6 +39,7 @@
 
 .headerDarkLight img {
   width: 30px;
+  height: 30px;
 }
 
 .headerMenu {
@@ -48,6 +50,7 @@
 }
 .headerMenu img {
   width: 30px;
+  height: 30px;
 }
 
 .headerNav {

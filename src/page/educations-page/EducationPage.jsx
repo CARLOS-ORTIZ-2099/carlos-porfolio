@@ -1,7 +1,6 @@
 import { useState } from "react";
 import educationsData from "../../data/educations.json";
 import styles from "./education-page.module.css";
-console.log(educationsData);
 
 export const EducationPage = () => {
   const [certifications, setCertifications] = useState(educationsData);
@@ -9,7 +8,11 @@ export const EducationPage = () => {
     <div className={styles.educationPageContainer}>
       {certifications.map((certification) => (
         <div className={styles.card} key={certification.id}>
-          <img className={styles.cardImg} src={certification.link} alt="" />
+          <img
+            className={styles.cardImg}
+            src={certification.link}
+            alt="certificate-img"
+          />
 
           <div className={styles.overlay}>
             <span>

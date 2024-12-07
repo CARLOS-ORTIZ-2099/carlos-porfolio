@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import logo2 from "../../assets/nav/logo.svg";
-import moon from "../../assets/nav/moon.svg";
-import sun from "../../assets/nav/sun.svg";
-import menu from "../../assets/nav/menu.svg";
-import closeMenu from "../../assets/nav/close-menu.svg";
+import logo from "/nav/logo.svg";
+import moon from "/nav/moon.svg";
+import sun from "/nav/sun.svg";
+import menu from "/nav/menu.svg";
+import closeMenu from "/nav/close-menu.svg";
 import styles from "./header.module.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
@@ -20,25 +20,16 @@ export const Header = () => {
 
   const handleOpenMenu = () => setOpenMenu(!openMenu);
 
-  /* este useffect se ejecutara cuando el usuario haga navegaciones internas */
   useEffect(() => {
-    //console.log(location);
-    // si estando en la pagina education-page el usuario interactua
-    // con la navegacion forzara un cambio de hash y se hara una redirrecion de pagina
     if (location.pathname === "/education-page" && location.hash) {
       console.log("estas en la pagina education");
       navigate(`/${location.hash}`);
     }
   }, [location.hash]);
 
-  /* este efecto se ejecutara cuando se cambie de pagina */
   useEffect(() => {
-    // si el usuario cambia de education-page al indice entonces lo
-    // llevamos hasta la seccion propia del indice
-    //console.log(location);
     const sectionId = location.hash.replace("#", "");
     const section = document.getElementById(sectionId);
-    //console.log(section);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
@@ -54,7 +45,7 @@ export const Header = () => {
     >
       <div className={styles.headerLogo}>
         <Link to={"/"}>
-          <img src={logo2} alt="logo-principal" />
+          <img src={logo} alt="logo-principal" />
         </Link>
       </div>
 

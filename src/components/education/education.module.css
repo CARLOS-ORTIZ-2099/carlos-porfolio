@@ -36,27 +36,25 @@
   /* border: solid red 1px; */
 }
 
-.cardLinkInfo .link button {
+.cardLinkInfo .link a {
   background-color: rgb(24, 149, 227);
   padding: 0.4rem;
   border-radius: 15px;
   border: none;
-}
-
-.cardLinkInfo .link button a {
   color: aliceblue;
 }
 
 .eduactionsContainer .btn {
-  margin: 20px auto 0 auto;
   background-color: #0d47a1;
   padding: 0.5rem;
-  width: 100px;
+  width: 140px;
   border-radius: 10px;
   display: block;
   margin: 20px auto 0 auto;
   border: none;
   cursor: pointer;
+  color: aliceblue;
+  text-align: center;
 }
 
 .eduactionsContainer .btn:hover {
@@ -64,11 +62,6 @@
   transition: ease-in-out 0.5s;
 }
 
-.eduactionsContainer .btn a {
-  color: aliceblue;
-}
-
-/* movil */
 @media screen and (max-width: 500px) {
   .cardLinkInfo {
     width: 80%;
@@ -86,8 +79,6 @@
     width: 100%;
   }
 }
-
-/* tablets */
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
   .cardLinkInfo {

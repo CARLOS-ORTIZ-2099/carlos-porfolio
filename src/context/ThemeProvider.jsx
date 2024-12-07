@@ -3,8 +3,6 @@
 /* eslint-disable no-undef */
 import { createContext, useContext, useState } from "react";
 
-/* creando contexto */
-
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {

@@ -4,8 +4,6 @@ import styles from "./education.module.css";
 import { Link } from "react-router-dom";
 
 export const Education = () => {
-  console.log(educationsData);
-
   const [certifications, setCertifications] = useState(educationsData);
 
   return (
@@ -23,15 +21,9 @@ export const Education = () => {
           >
             {/*  <div className={styles.cardLink}> */}
             <div className={styles.link}>
-              <button>
-                <a
-                  className={styles.surround}
-                  href={certification.link}
-                  target="blank"
-                >
-                  see certificate
-                </a>
-              </button>
+              <a href={certification.link} target="blank">
+                View Certification
+              </a>
             </div>
 
             <div className={styles.texto}>
@@ -43,9 +35,9 @@ export const Education = () => {
         ))}
       </div>
 
-      <button className={styles.btn}>
-        <Link to={"/education-page"}>see more</Link>
-      </button>
+      <Link className={styles.btn} to={"/education-page"}>
+        Explore My Education Page
+      </Link>
     </section>
   );
 };
