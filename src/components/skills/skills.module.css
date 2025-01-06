@@ -1,7 +1,10 @@
 .skillsTitle {
   text-align: center;
 }
-
+.skillsContainer {
+  /* border: solid blue 1px; */
+  margin-top: 2rem;
+}
 .skillsImagesContainer {
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));

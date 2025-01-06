@@ -33,7 +33,7 @@
     "description": "esta app permite explorar todos los paises del mundo, así como ver su informacion detallada como cantidad de población, tipo de moneda, etc, también puedes filtrarlos por continente",
     "technologies": ["react", "css"],
     "image": "/projects/countries-app-1.webp",
-    "link": "https://countries-app-hummingbird-4995dd.netlify.app/",
+    "link": "https://countries-app-dancing-narwhal-06cb5e.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/countries-app/tree/dev"
   },
   {
@@ -71,5 +71,14 @@
     "image": "/projects/market-place-1.webp",
     "link": "https://market-place-om7z.onrender.com/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/market-place"
+  },
+  {
+    "id": 12,
+    "title": "notes app",
+    "description": "una aplicación de notas donde el usuario puede registrarse y hacer las operaciones crud para gestionar sus notas, estas se guardan en mysql",
+    "technologies": ["html", "css", "php", "mysql"],
+    "image": "/projects/notes-app-1-php.webp",
+    "link": "",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-mvc"
   }
 ]

@@ -96,5 +96,12 @@
     "date": "23 de febrero de 2024",
     "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/f_auto/v1731021415/certificado-react-udemy_xepi0o.jpg",
     "institution": "Udemy"
+  },
+  {
+    "id": 15,
+    "course": "curso master en php",
+    "date": "19 de diciembre de 2024",
+    "link": "https://res.cloudinary.com/eduardeveloperweb/image/upload/v1734829923/master-en-php_zlly7j.jpg",
+    "institution": "Udemy"
   }
 ]
