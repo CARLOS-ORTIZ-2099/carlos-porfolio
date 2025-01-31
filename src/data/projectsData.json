@@ -80,5 +80,14 @@
     "image": "/projects/notes-app-1-php.webp",
     "link": "",
     "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-mvc"
+  },
+  {
+    "id": 13,
+    "title": "blog app",
+    "description": "una aplicación donde los usuarios pueden ver publicaciones de diversos temas, asi como crear sus propias publicaciones ",
+    "technologies": ["html", "css", "php", "mysql"],
+    "image": "/projects/blog-php-1.webp",
+    "link": "",
+    "github": "https://github.com/CARLOS-ORTIZ-2099/blog-php"
   }
 ]
