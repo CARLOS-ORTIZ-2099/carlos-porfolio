@@ -1,13 +1,13 @@
 [
   { "name": "html", "image": "/skills/html-logo.svg" },
   { "name": "css", "image": "/skills/css-logo.svg" },
-  { "name": "javascript", "image": "/skills/js-logo.svg" },
+  { "name": "javascript", "image": "/skills/javascript-logo.svg" },
   { "name": "react", "image": "/skills/react-logo.svg" },
   { "name": "bootstrap", "image": "/skills/bootstrap-logo.svg" },
   { "name": "git", "image": "/skills/git-logo.svg" },
-  { "name": "node", "image": "/skills/node-logo.svg" },
+  { "name": "node-js", "image": "/skills/node-js-logo.svg" },
   { "name": "express", "image": "/skills/express-logo.svg" },
-  { "name": "mongo db", "image": "/skills/mongo-logo.svg" },
+  { "name": "mongo-db", "image": "/skills/mongo-db-logo.svg" },
   { "name": "php", "image": "/skills/php-logo.svg" },
   { "name": "mysql", "image": "/skills/mysql-logo.svg" }
 ]

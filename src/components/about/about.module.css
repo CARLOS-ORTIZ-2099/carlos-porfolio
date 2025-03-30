@@ -1,13 +1,13 @@
 .aboutContainer {
   margin-top: 10vh;
-  /*  border: solid green 2px; */
+  /* border: solid green 2px; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .aboutImage {
-  /*  border: solid red 2px; */
+  /* border: solid red 2px; */
   flex: 1 1 0;
 }
 
@@ -15,12 +15,13 @@
   /* border: solid blue 2px; */
   flex: 1 1 0;
   padding: 0 1.5rem 0 1.5rem;
-  height: 400px;
 }
+
 .aboutInformation div {
-  margin-top: 15px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-around;
+  /*  border: solid rgb(107, 19, 115) 1px; */
 }
 
 .aboutInformation div a img {
@@ -31,9 +32,12 @@
 @media screen and (max-width: 500px) {
   .aboutContainer {
     flex-direction: column;
-    padding: 1rem;
   }
   .aboutInformation {
     padding: 1.2rem;
+  }
+  .aboutInformation div a img {
+    width: 35px;
+    height: 35px;
   }
 }

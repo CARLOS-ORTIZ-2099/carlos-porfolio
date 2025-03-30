@@ -3,7 +3,7 @@
     "id": 3,
     "title": "ip address tracker",
     "description": "esta es una aplicación que dada una dirección ip se encarga de mostrar su ubicación, así como otros datos en un interactivo mapa geográfico",
-    "technologies": ["html,", " css,", " javascript"],
+    "technologies": ["html", "css", "javascript"],
     "image": "/projects/ip-address-1.webp",
     "link": "https://ip-address-tracker-oc.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/ip-address-tracker-master/tree/dev"
@@ -12,7 +12,7 @@
     "id": 4,
     "title": "todo app with drag and drop",
     "description": "aquí puedes crear tu lista de tareas pendientes, así como eliminarlas, marcarlas como completadas y filtrarlas, cuenta con un sistema drag and drop para organizarlas de la manera que quieras",
-    "technologies": ["html,", " css,", " javascript"],
+    "technologies": ["html", "css", "javascript"],
     "image": "/projects/todo-app-1.webp",
     "link": "https://todo-app-main-sandy.vercel.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev"
@@ -21,13 +21,7 @@
     "id": 5,
     "title": "rock paper scissor multiplayer",
     "description": "el clásico juego de piedra papel y tijera esta vez en un formato multijugador en tiempo real",
-    "technologies": [
-      "html,",
-      " css,",
-      " javascript,",
-      " node js,",
-      " socket IO"
-    ],
+    "technologies": ["html", "css", "javascript", "node-js", "socket-io"],
     "image": "/projects/rps-socket-io-1.webp",
     "link": "",
     "github": "https://github.com/CARLOS-ORTIZ-2099/rock-paper-scissor-sockets"
@@ -37,7 +31,7 @@
     "id": 7,
     "title": "countries app",
     "description": "esta app permite explorar todos los paises del mundo, así como ver su informacion detallada como cantidad de población, tipo de moneda, etc, también puedes filtrarlos por continente",
-    "technologies": ["react,", " css"],
+    "technologies": ["react", "css"],
     "image": "/projects/countries-app-1.webp",
     "link": "https://countries-app-dancing-narwhal-06cb5e.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/countries-app/tree/dev"
@@ -46,7 +40,7 @@
     "id": 8,
     "title": "amastore ecommerce",
     "description": "el clásico ecommerce donde puedes agregar productos al carrito, eliminarlos, editar cantidades, así como filtrar productos de la tienda por categoría",
-    "technologies": ["react,", " css,", " bootstrap"],
+    "technologies": ["react", "css", "bootstrap"],
     "image": "/projects/amastore-1.webp",
     "link": "https://amastore.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev"
@@ -55,7 +49,7 @@
     "id": 9,
     "title": "chat simulator",
     "description": "una aplicación que simula un chat donde los usuarios pueden registrarse con su cuenta de Google, los mensajes se guardan en firestore de firebase",
-    "technologies": ["react,", " css,", " bootstrap,", " firebase"],
+    "technologies": ["react", "css", "bootstrap", "firebase"],
     "image": "/projects/chat-group-1.webp",
     "link": "https://chat-group-568053.netlify.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev"
@@ -64,13 +58,7 @@
     "id": 10,
     "title": "instagram clone",
     "description": "un clon de la popular red social Instagram, implementa muchas de sus funcionalidades, así como un diseño semejante",
-    "technologies": [
-      "react,",
-      " chakra UI,",
-      " node js,",
-      " express,",
-      " mongo db"
-    ],
+    "technologies": ["react", "chakra-ui", "node-js", "express", "mongo-db"],
     "image": "/projects/clon-instagram-1.webp",
     "link": "https://clon-instagram.onrender.com/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/clon-instagram"
@@ -79,13 +67,7 @@
     "id": 11,
     "title": "marketplace",
     "description": "un marketplace inspirado en mercado libre, los usuarios pueden crear productos para vender,  así como también comprar a otros usuarios ",
-    "technologies": [
-      "react,",
-      " chakra UI,",
-      " node js,",
-      " express,",
-      " mongo db"
-    ],
+    "technologies": ["react", "chakra-ui", "node-js", "express", "mongo-db"],
     "image": "/projects/market-place-1.webp",
     "link": "https://market-place-om7z.onrender.com/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/market-place"
@@ -95,7 +77,7 @@
     "id": 13,
     "title": "blog app",
     "description": "una aplicación donde los usuarios pueden ver publicaciones de diversos temas, asi como crear sus propias publicaciones ",
-    "technologies": ["html,", " css,", " php,", " mysql"],
+    "technologies": ["html", "css", "php", "mysql"],
     "image": "/projects/blog-php-1.webp",
     "link": "",
     "github": "https://github.com/CARLOS-ORTIZ-2099/blog-php"
@@ -104,7 +86,7 @@
     "id": 14,
     "title": "sports fields rental",
     "description": "esta aplicación permite a los usuarios crear reservas de campos deportivos de distintos tipos, como, futbol, voley, etc, asi mismo el administrador tiene la capacidad de crear nuevos campos deportivos, entre otras mas cosas.",
-    "technologies": ["html,", " sass,", " javascript,", " php,", " mysql"],
+    "technologies": ["html", "sass", "javascript", "php", "mysql"],
     "image": "/projects/sports-fields-rental-1.webp",
     "link": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion",
     "github": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion"

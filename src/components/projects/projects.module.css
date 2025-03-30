@@ -14,19 +14,21 @@
   /* border: solid blue 2px; */
   display: grid;
   grid-template-columns: repeat(3, minmax(50px, 1fr));
-  gap: 1rem;
+  gap: 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .card {
+  background-color: #fff;
   width: 300px;
   margin: 0 auto;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 500px;
 }
 
 .card:hover {
@@ -53,8 +55,21 @@
 }
 
 .cardContent {
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #fff;
+}
+
+.imagesTecnologiesContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /*   border: solid red 2px; */
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.imagesTecnologiesContainer img {
+  width: 30px;
 }
 
 .cardContent h3 {
@@ -106,14 +121,8 @@
   .projects {
     grid-template-columns: repeat(1, minmax(50px, 1fr));
   }
-
   .card {
-    width: 280px;
-    margin: 0 auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
   }
 }
 

@@ -2,7 +2,7 @@ import styles from "./projects.module.css";
 import data from "../../data/projectsData.json";
 import { useState } from "react";
 import network from "/redes/network-logo.svg";
-import github from "/redes/github-logo-1.svg";
+import github from "/redes/github-logo.svg";
 
 export const Projects = () => {
   const [projects, setProjects] = useState(data);
@@ -24,11 +24,18 @@ export const Projects = () => {
               <p>{project.description}</p>
 
               <span>stack : </span>
-
-              {project.technologies.map((technologi, index) => (
-                <span key={index}> {technologi} </span>
-              ))}
-
+              <div className={styles.imagesTecnologiesContainer}>
+                {project.technologies.map((technologi, index) => (
+                  <div key={index}>
+                    <img
+                      src={`/skills/` + technologi + "-logo.svg"}
+                      alt="image-technologi"
+                    />
+                    <br />
+                    <span key={index}> {technologi} </span>
+                  </div>
+                ))}
+              </div>
               <div className={styles.linksContainer}>
                 <a href={project.link} target="blank" rel="noopener noreferrer">
                   <img

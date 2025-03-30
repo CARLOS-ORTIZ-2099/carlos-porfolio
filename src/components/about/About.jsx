@@ -2,7 +2,9 @@ import styles from "./about.module.css";
 import Lottie from "lottie-react";
 import aboutImage from "../../assets/about/about-image.json";
 import githubImage from "/redes/github-logo.svg";
+import youtubeImage from "/redes/youtube.svg";
 import gmailImage from "/redes/gmail-logo.svg";
+import linkedinImage from "/redes/linkedin-logo.svg";
 import cvImage from "/redes/cv-logo.svg";
 
 export const About = () => {
@@ -32,12 +34,29 @@ export const About = () => {
           </a>
 
           <a
+            href="https://www.youtube.com/@carledudev"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={youtubeImage} alt="youtube-logo" />
+          </a>
+
+          <a
             href="mailto:carledudev@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             <img src={gmailImage} alt="gmail-logo" />
           </a>
+
+          <a
+            href="https://www.linkedin.com/in/carlos-eduardo-ortiz-pari-105973348/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedinImage} alt="linkedin-logo" />
+          </a>
+
           <a href="/carlos-cv.pdf" target="_blank">
             <img src={cvImage} alt="cv-logo" />
           </a>
