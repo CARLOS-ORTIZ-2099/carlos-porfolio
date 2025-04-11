@@ -1,11 +1,10 @@
 import styles from "./projects.module.css";
 import data from "../../data/projectsData.json";
 import { useState } from "react";
-import network from "/redes/network-logo.svg";
-import github from "/redes/github-logo.svg";
+import { Card } from "./Card.jsx";
 
 export const Projects = () => {
-  const [projects, setProjects] = useState(data);
+  const [projects] = useState(data);
 
   return (
     <section className={styles.projectsContainer} id="projects">
@@ -14,50 +13,7 @@ export const Projects = () => {
       </h2>
       <div className={styles.projects}>
         {projects.map((project) => (
-          <div key={project.id} className={styles.card}>
-            <div className={styles.cardImage}>
-              <img loading="lazy" src={project.image} alt="Project Image" />
-            </div>
-
-            <div className={styles.cardContent}>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-
-              <span>stack : </span>
-              <div className={styles.imagesTecnologiesContainer}>
-                {project.technologies.map((technologi, index) => (
-                  <div key={index}>
-                    <img
-                      src={`/skills/` + technologi + "-logo.svg"}
-                      alt="image-technologi"
-                    />
-                    <br />
-                    <span key={index}> {technologi} </span>
-                  </div>
-                ))}
-              </div>
-              <div className={styles.linksContainer}>
-                <a href={project.link} target="blank" rel="noopener noreferrer">
-                  <img
-                    className={styles.icon}
-                    src={network}
-                    alt="visitar el proyecto en línea"
-                  />
-                </a>
-                <a
-                  href={project.github}
-                  target="blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className={styles.icon}
-                    src={github}
-                    alt="Ver el repositorio en GitHub"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
+          <Card key={project.id} project={project} />
         ))}
       </div>
 

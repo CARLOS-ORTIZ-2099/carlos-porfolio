@@ -22,13 +22,14 @@
 
 .card {
   background-color: #fff;
-  width: 300px;
+  width: 370px;
   margin: 0 auto;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px rgba(134, 123, 55, 0.5);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 500px;
+  /*  height: 500px; */
+  /* border: solid green 2px; */
 }
 
 .card:hover {
@@ -55,21 +56,45 @@
 }
 
 .cardContent {
-  /* padding: 20px; */
+  padding: 10px;
   background-color: #fff;
 }
 
+.stackTitle {
+  display: block;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
 .imagesTecnologiesContainer {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
   align-items: center;
-  /*   border: solid red 2px; */
-  width: 100%;
-  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.imagesTecnologiesContainer div {
+  margin-bottom: 5px;
+}
+
+.imagesTecnologiesContainer .doble {
+  border-right: 1px solid #0d47a1;
+  border-left: 1px solid #0d47a1;
+}
+.imagesTecnologiesContainer .uno {
+  border-left: 1px solid #0d47a1;
+}
+
+.imagesTecnologiesContainer div span {
+  display: block;
+  text-transform: capitalize;
+  color: #0d47a1;
 }
 
 .imagesTecnologiesContainer img {
   width: 30px;
+  height: 30px;
 }
 
 .cardContent h3 {
@@ -116,18 +141,22 @@
   background-color: #1565c0;
   transition: ease-in-out 0.5s;
 }
-
-@media screen and (max-width: 600px) {
+/*  celulares */
+@media screen and (max-width: 700px) {
   .projects {
     grid-template-columns: repeat(1, minmax(50px, 1fr));
+    padding: 10px;
   }
   .card {
     width: 100%;
   }
 }
-
-@media screen and (min-width: 610px) and (max-width: 1000px) {
+/* tablet */
+@media screen and (min-width: 700px) and (max-width: 1200px) {
   .projects {
     grid-template-columns: repeat(2, minmax(50px, 1fr));
+  }
+  .card {
+    width: 320px;
   }
 }
