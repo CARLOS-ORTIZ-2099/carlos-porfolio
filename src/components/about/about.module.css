@@ -17,6 +17,10 @@
   padding: 0 1.5rem 0 1.5rem;
 }
 
+.aboutInformation .role {
+  color: rgb(16, 182, 228);
+}
+
 .aboutInformation div {
   margin-top: 25px;
   display: flex;

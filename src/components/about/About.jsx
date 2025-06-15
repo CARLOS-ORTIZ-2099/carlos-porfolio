@@ -17,12 +17,12 @@ export const About = () => {
       <div className={styles.aboutInformation}>
         <h2 id="about-heading">About me</h2>
         <p>
-          soy una persona autodidacta con ganas de seguir aprendiendo y
-          creciendo en este mundo de la tecnología, así mismo me encuentro en
-          constante aprendizaje explorando nuevas tecnologías y mejores
-          prácticas para mejorar mis habilidades y hacer las cosas cada vez
-          mejor me encanta asumir nuevos retos y resolver problemas tanto en el
-          ámbito digital como en la vida cotidiana.
+          Soy un <span className={styles.role}>PROGRAMADOR FULLSTACK </span> con
+          más de 2 años de experiencia, así también continuo en constante
+          aprendizaje explorando nuevas tecnologías y mejores prácticas para
+          mejorar mis habilidades, seguir creciendo y aportar valor a este mundo
+          de la tecnología, me encanta asumir nuevos retos y resolver problemas
+          tanto en el ámbito digital como en la vida cotidiana.
         </p>
         <div>
           <a
@@ -57,7 +57,7 @@ export const About = () => {
             <img src={linkedinImage} alt="linkedin-logo" />
           </a>
 
-          <a href="/carlos-cv.pdf" target="_blank">
+          <a href="/CARLOS-DEVELOPER-CV.pdf" target="_blank">
             <img src={cvImage} alt="cv-logo" />
           </a>
         </div>

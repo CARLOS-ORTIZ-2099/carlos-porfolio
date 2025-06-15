@@ -17,25 +17,7 @@
     "link": "https://todo-app-main-sandy.vercel.app/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev"
   },
-  {
-    "id": 5,
-    "title": "rock paper scissor multiplayer",
-    "description": "el clásico juego de piedra papel y tijera esta vez en un formato multijugador en tiempo real",
-    "technologies": ["html", "css", "javascript", "node-js", "socket-io"],
-    "image": "/projects/rps-socket-io-1.webp",
-    "link": "",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/rock-paper-scissor-sockets"
-  },
 
-  {
-    "id": 7,
-    "title": "countries app",
-    "description": "esta app permite explorar todos los paises del mundo, así como ver su informacion detallada como cantidad de población, tipo de moneda, etc, también puedes filtrarlos por continente",
-    "technologies": ["react", "css"],
-    "image": "/projects/countries-app-1.webp",
-    "link": "https://countries-app-dancing-narwhal-06cb5e.netlify.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/countries-app/tree/dev"
-  },
   {
     "id": 8,
     "title": "amastore ecommerce",
@@ -73,15 +55,6 @@
     "github": "https://github.com/CARLOS-ORTIZ-2099/market-place"
   },
 
-  {
-    "id": 13,
-    "title": "blog app",
-    "description": "una aplicación donde los usuarios pueden ver publicaciones de diversos temas, asi como crear sus propias publicaciones ",
-    "technologies": ["html", "css", "php", "mysql"],
-    "image": "/projects/blog-php-1.webp",
-    "link": "",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/blog-php"
-  },
   {
     "id": 14,
     "title": "sports fields rental",
