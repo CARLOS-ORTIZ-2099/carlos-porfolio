@@ -6,8 +6,7 @@
     "technologies": ["html", "css", "javascript"],
     "image": "/projects/ip-address-1.webp",
     "link": "https://ip-address-tracker-oc.netlify.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/ip-address-tracker-master/tree/dev",
-    "demo": ""
+    "github": "https://github.com/CARLOS-ORTIZ-2099/ip-address-tracker-master/tree/dev"
   },
   {
     "id": 4,
@@ -16,8 +15,7 @@
     "technologies": ["html", "css", "javascript"],
     "image": "/projects/todo-app-1.webp",
     "link": "https://todo-app-main-sandy.vercel.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev",
-    "demo": ""
+    "github": "https://github.com/CARLOS-ORTIZ-2099/todo-app-main/tree/dev"
   },
 
   {
@@ -27,8 +25,7 @@
     "technologies": ["react", "css", "bootstrap"],
     "image": "/projects/amastore-1.webp",
     "link": "https://amastore.netlify.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev",
-    "demo": ""
+    "github": "https://github.com/CARLOS-ORTIZ-2099/ecommerce-products/tree/dev"
   },
   {
     "id": 9,
@@ -37,8 +34,7 @@
     "technologies": ["react", "css", "bootstrap", "firebase"],
     "image": "/projects/chat-group-1.webp",
     "link": "https://chat-group-568053.netlify.app/",
-    "github": "https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev",
-    "demo": ""
+    "github": "https://github.com/CARLOS-ORTIZ-2099/chat-group/tree/dev"
   },
   {
     "id": 10,
@@ -48,7 +44,7 @@
     "image": "/projects/clon-instagram-1.webp",
     "link": "https://clon-instagram.onrender.com/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/clon-instagram",
-    "demo": "https://youtu.be/3UFJSsI4JCI?si=6C9m2eRep2nyLUG1"
+    "demo": "https://www.youtube.com/watch?v=3UFJSsI4JCI"
   },
   {
     "id": 11,
@@ -58,7 +54,7 @@
     "image": "/projects/market-place-1.webp",
     "link": "https://market-place-om7z.onrender.com/",
     "github": "https://github.com/CARLOS-ORTIZ-2099/market-place",
-    "demo": "https://youtu.be/ehpwvz_8WMY?si=p2RPd5mxW28ahlXs"
+    "demo": "https://www.youtube.com/watch?v=ehpwvz_8WMY&t=2s"
   },
 
   {
@@ -69,6 +65,6 @@
     "image": "/projects/sports-fields-rental-1.webp",
     "link": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion",
     "github": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion",
-    "demo": "https://youtu.be/Evnq8ReXPa8?si=XSf0I3K4wGbP9WU7"
+    "demo": "https://www.youtube.com/watch?v=Evnq8ReXPa8&t=2s"
   }
 ]

@@ -47,13 +47,16 @@ export const Card = ({ project }) => {
               alt="visitar el proyecto en línea"
             />
           </a>
-          <a href={project.demo} target="blank" rel="noopener noreferrer">
-            <img
-              className={styles.icon}
-              src={youtube}
-              alt="Ver la demo en youtube"
-            />
-          </a>
+          {project.demo ? (
+            <a href={project.demo} target="blank" rel="noopener noreferrer">
+              <img
+                className={styles.icon}
+                src={youtube}
+                alt="Ver la demo en youtube"
+              />
+            </a>
+          ) : null}
+
           <a href={project.github} target="blank" rel="noopener noreferrer">
             <img
               className={styles.icon}
