@@ -2,6 +2,7 @@
 import styles from "./projects.module.css";
 import network from "/redes/network-logo.svg";
 import github from "/redes/github-logo.svg";
+import youtube from "/redes/youtube.svg";
 import { insertPipesArray } from "../../helpers/index.js";
 
 export const Card = ({ project }) => {
@@ -44,6 +45,13 @@ export const Card = ({ project }) => {
               className={styles.icon}
               src={network}
               alt="visitar el proyecto en línea"
+            />
+          </a>
+          <a href={project.demo} target="blank" rel="noopener noreferrer">
+            <img
+              className={styles.icon}
+              src={youtube}
+              alt="Ver la demo en youtube"
             />
           </a>
           <a href={project.github} target="blank" rel="noopener noreferrer">
