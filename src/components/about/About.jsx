@@ -18,11 +18,13 @@ export const About = () => {
         <h2 id="about-heading">About me</h2>
         <p>
           Soy un <span className={styles.role}>PROGRAMADOR FULLSTACK </span> con
-          más de 2 años de experiencia, así también continuo en constante
-          aprendizaje explorando nuevas tecnologías y mejores prácticas para
-          mejorar mis habilidades, seguir creciendo y aportar valor a este mundo
-          de la tecnología, me encanta asumir nuevos retos y resolver problemas
-          tanto en el ámbito digital como en la vida cotidiana.
+          más de <span className={styles.role}>2 años</span> de experiencia, en
+          este tiempo desarrolle varias aplicaciones web desde cero, estos
+          proyectos me permitieron mejorar mis conocimientos en varios aspectos
+          del desarrollo web como front-end, back-end, bases de datos y aprender
+          buenas practicas como principios{" "}
+          <span className={styles.role}>SOLID</span> y
+          <span className={styles.role}> PATRONES DE DISEÑO</span>
         </p>
         <div>
           <a
