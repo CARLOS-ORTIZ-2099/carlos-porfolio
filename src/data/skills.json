@@ -9,5 +9,6 @@
   { "name": "express", "image": "/skills/express-logo.svg" },
   { "name": "mongo-db", "image": "/skills/mongo-db-logo.svg" },
   { "name": "php", "image": "/skills/php-logo.svg" },
-  { "name": "mysql", "image": "/skills/mysql-logo.svg" }
+  { "name": "mysql", "image": "/skills/mysql-logo.svg" },
+  { "name": "laravel", "image": "/skills/laravel-logo.svg" }
 ]

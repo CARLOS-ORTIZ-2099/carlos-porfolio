@@ -66,5 +66,15 @@
     "link": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion",
     "github": "https://github.com/CARLOS-ORTIZ-2099/your-field-your-space-your-passion",
     "demo": "https://www.youtube.com/watch?v=Evnq8ReXPa8&t=2s"
+  },
+  {
+    "id": 15,
+    "title": "inventory system",
+    "description": "Es un sistema de inventario para un negocio que se creo con el fin de facilitar muchos procesos de la gestión de la mercadería, en esta aplicacion implemente laravel, mysql con eloquent, alpine.js y componentes de flux ui.",
+    "technologies": ["laravel", "mysql", "javascript", "tailwind"],
+    "image": "/projects/inventory_system.PNG",
+    "link": "",
+    "github": "",
+    "demo": ""
   }
 ]
