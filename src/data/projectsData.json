@@ -72,7 +72,7 @@
     "title": "inventory system",
     "description": "Es un sistema de inventario para un negocio que se creo con el fin de facilitar muchos procesos de la gestión de la mercadería, en esta aplicacion implemente laravel, mysql con eloquent, alpine.js y componentes de flux ui.",
     "technologies": ["laravel", "mysql", "javascript", "tailwind"],
-    "image": "/projects/inventory_system.PNG",
+    "image": "/projects/inventory-system.PNG",
     "link": "",
     "github": "",
     "demo": ""
