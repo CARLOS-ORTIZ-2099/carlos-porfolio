@@ -70,11 +70,11 @@
   {
     "id": 15,
     "title": "inventory system",
-    "description": "Es un sistema de inventario para un negocio que se creo con el fin de facilitar muchos procesos de la gestión de la mercadería, en esta aplicacion implemente laravel, mysql con eloquent, alpine.js y componentes de flux ui.",
+    "description": "Es un sistema de inventario para un negocio que vende componentes de computadoras, que se creo con el fin de facilitar muchos procesos de la gestión de la mercadería, en esta aplicación implemente laravel, mysql con el ORM eloquent, alpine.js, javascript, componentes de flux ui y cloudinary para almacenar archivos multimedia en la nube",
     "technologies": ["laravel", "mysql", "javascript", "tailwind"],
     "image": "/projects/inventory-system.PNG",
     "link": "",
     "github": "",
-    "demo": ""
+    "demo": "https://youtu.be/BNT_VSZ34es?si=45Gar6H8BsI3xeIp"
   }
 ]
